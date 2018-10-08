@@ -47,21 +47,21 @@
 }
 html { font-size: 62.5%; }
 body { font-size: 1.4rem; } /* =14px */
-nav{
-  top: -100px;
-  height: 8vh;
+header{
+  /*top: -500px;*/
+  position: relative;
+  width: 100%;
+  transition: all 1s;
+}
+.nav{
+  height: 9vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.51);
   position: fixed;
   z-index: 100;
   transition: all 1s;
 }
-nav ul{
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-}
-nav li{
+.nav li{
   font-size: 1.5em;
   display: inline-block;
   text-transform: uppercase;
@@ -70,24 +70,19 @@ nav li{
   line-height: 8vh;
   border-radius: 3px;
 }
-nav a{
-  padding: 8px;
+.nav a{
   color: #bdd1ff;
+  padding: 0 1rem;
   border-radius: 3px;
   border: 2px rgba(164, 174, 173, 0) solid;
 }
-nav a:hover{
+.nav a:hover{
   color: white;
   text-decoration: none;
   border: 2px white solid;
   border-radius: 3px;
 }
-header{
-  top: -500px;
-  position: relative;
-  width: 100%;
-  transition: all 1s;
-}
+
 .colors{
   width: 100%;
   height: 45vh;
@@ -176,7 +171,7 @@ header{
   position: relative;
 }
 .foodLike{
-  left: -100%;
+  /*left: -100%;*/
   background-color: salmon;
   float: left;
   transition: all 1.5s;
@@ -184,7 +179,7 @@ header{
 .photoLike{
   background-color: rgb(77, 194, 255);
   float: right;
-  right: -100%;
+  /*right: -100%;*/
   transition: all 1.5s;
 }
 .pictures{
@@ -326,7 +321,7 @@ footer{
 /*---------------------ACTIVATION ---------------------- */
 .hobbie{
   position: relative;
-  top: -600px;
+  /*top: -600px;*/
   transition: all 1.5s;
   z-index: -100;
 }
@@ -382,4 +377,17 @@ footer{
 }
 .worksView2{
   background-color: #e0e9ff;
+  padding: 90px 0;
+}
+.worksView2 p{
+  font-size: 1.6em;
+}
+.worksView2 a{
+  position: absolute;
+  bottom: 0;
+  margin: 20px 0;
+  font-size: 17px;
+}
+.card{
+  margin: 10px 0;
 }

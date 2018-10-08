@@ -1,4 +1,27 @@
 <main>
+    <div id="works" class="knowMore">
+        <h2>What do I do?</h2>
+    </div>
+    <div class="works">
+        <div class="landings block">
+            <div class="overlayWorks">
+                <a href="#!/view2"></a>
+            </div>
+            <div class="mainSquare" ng-mouseenter="landingActive()" ng-mouseleave="landingNotActive()">
+                <i class="fas fa-bookmark"></i>
+            </div>
+            <h2>Landings</h2>
+        </div>
+        <div class="apps block">
+            <div class="overlayWorks">
+                <a href="#!/view2"></a>
+            </div>
+            <div class="mainSquare" ng-mouseenter="landingActive()" ng-mouseleave="landingNotActive()">
+                <i class="fas fa-puzzle-piece"></i>
+            </div>
+            <h2>Applications</h2>
+        </div>
+    </div>
     <div id="hobbies" class="hobbie knowMore">
         <h2>What do I like<span>?</span></h2>
     </div>
@@ -24,37 +47,20 @@
             <h2>Photography</h2>
         </div>
     </div>
-    <div id="works" class="knowMore">
-        <h2>What do I do?</h2>
-    </div>
-    <div class="works">
-        <div class="landings block">
-            <div class="overlayWorks">
-                <a href="#!/view2"></a>
-            </div>
-            <div class="mainSquare" ng-mouseenter="landingActive()" ng-mouseleave="landingNotActive()">
-                <i class="fas fa-bookmark"></i>
-            </div>
-            <h2>Landings</h2>
-        </div>
-        <div class="apps block">
-            <div class="overlayWorks">
-                <a href="#!/dashboard"></a>
-            </div>
-            <div class="mainSquare" ng-mouseenter="landingActive()" ng-mouseleave="landingNotActive()">
-                <i class="fas fa-puzzle-piece"></i>
-            </div>
-            <h2>Applications</h2>
-        </div>
-    </div>
     <div id="contacts" class="knowMore">
         <h2>How to find me?</h2>
     </div>
     <div class="social">
-        <a href="https://www.facebook.com/vardjaklap"><div class="facebook"><div class="overlaySocial"></div><i class="fab fa-facebook-f"></i></div></a>
-        <a href="https://www.linkedin.com/in/oleksandr-peresta/"><div class="linkedIn"><div class="overlaySocial"></div><i class="fab fa-linkedin-in"></i></div></a>
-        <a href="mailto:alexperesta@gmail.com"><div class="mail"><div class="overlaySocial"></div><i class="far fa-envelope"></i></div></a>
-        <a href="https://www.instagram.com/alexperesta/"><div class="instagram"><div class="overlaySocial"></div><i class="fab fa-instagram"></i></div></a>
-        <a href="https://t.me/Vardjaklap"><div class="telegram"><div class="overlaySocial"></div><i class="fab fa-telegram-plane"></i></div></a>
+        <a href="https://www.facebook.com/vardjaklap" data-toggle="tooltip" data-placement="top" title="Facebook"><div class="facebook"><div class="overlaySocial"></div><i class="fab fa-facebook-f"></i></div></a>
+        <a href="https://www.linkedin.com/in/oleksandr-peresta/" data-toggle="tooltip" data-placement="top" title="LinkedIn"><div class="linkedIn"><div class="overlaySocial"></div><i class="fab fa-linkedin-in"></i></div></a>
+        <a href="mailto:alexperesta@gmail.com" data-toggle="tooltip" data-placement="top" title="Mail"><div class="mail"><div class="overlaySocial"></div><i class="far fa-envelope"></i></div></a>
+        <a href="https://www.instagram.com/alexperesta/" data-toggle="tooltip" data-placement="top" title="Instagram"><div class="instagram"><div class="overlaySocial"></div><i class="fab fa-instagram"></i></div></a>
+        <a href="https://t.me/Vardjaklap" data-toggle="tooltip" data-placement="top" title="Telegram"><div class="telegram"><div class="overlaySocial"></div><i class="fab fa-telegram-plane"></i></div></a>
     </div>
 </main>
+
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>

@@ -19,21 +19,22 @@
 </head>
 <body ng-controller="MainCtrl">
 
-
-  <nav>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 col-sm-12">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#works">Works</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
+  <div class="navs">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#works">Works</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#hobbies">Hobbies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contacts">Contacts</a>
+      </li>
+    </ul>
+  </div>
 
 
 
@@ -83,5 +84,6 @@
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
+
 </body>
 </html>

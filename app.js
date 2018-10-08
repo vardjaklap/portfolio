@@ -10,10 +10,10 @@ angular.module('myApp', [
     controller('MainCtrl', ['$scope','$interval', '$timeout',function($scope, $interval, $timeout){
 
     $scope.works = [
-        {name:'Fitonia', link:'https://vardjaklap.github.io/FitoniaFinal/#!/registration'},
-        {name:'Modest', link:'https://vardjaklap.github.io/Modest/'},
-        {name: 'Intersog', link:'https://vardjaklap.github.io/Intersog/'}
+        {name:'Fitonia', type: 'Web Application', desc:'A small fitness application I made as my graduation project.', link:'https://vardjaklap.github.io/FitoniaFinal/#!/registration'},
+        {name:'Modest', type: 'Landing page', desc:'A landing, made from scratch from a template.', link:'https://vardjaklap.github.io/Modest/'}
     ];
+
 
     }])
     .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {

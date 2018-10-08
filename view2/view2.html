@@ -1,12 +1,18 @@
 <div class="worksView2">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-2" ng-repeat="website in works">
-        <div class="cube">
-          <a href={{website.link}}></a>
-          <h1>{{website.name}}</h1>
+    <div class="row justify-content-around">
+      <div class="col-md-3 col-10" ng-repeat="website in works">
+        <div class="card" style="width: 100%; height: 23rem;">
+          <div class="card-body">
+            <h2 class="card-title">{{website.name}}</h2>
+            <h4 class="card-subtitle mb-2 text-muted">{{website.type}}</h4>
+            <p class="card-text">{{website.desc}}</p>
+            <a href="{{website.link}}" class="card-link">Check this out!</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
