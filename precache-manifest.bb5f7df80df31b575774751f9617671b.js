@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "cf9918aa2e0fa5025245",
-    "url": "/portfolio/static/css/main.19c648a9.chunk.css"
+    "revision": "262719c2c30d6978ea91",
+    "url": "/portfolio/static/css/main.a7564e6e.chunk.css"
   },
   {
-    "revision": "cf9918aa2e0fa5025245",
-    "url": "/portfolio/static/js/main.cf9918aa.chunk.js"
+    "revision": "262719c2c30d6978ea91",
+    "url": "/portfolio/static/js/main.262719c2.chunk.js"
   },
   {
-    "revision": "5bd59433943ccd176ab5",
-    "url": "/portfolio/static/js/1.5bd59433.chunk.js"
+    "revision": "4443b6646adf8c51903a",
+    "url": "/portfolio/static/js/1.4443b664.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -52,6 +52,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/photo9.be23954a.png"
   },
   {
+    "revision": "9e4fa034f4d2e01b3344dc701083d9db",
+    "url": "/portfolio/static/media/fitonialogo.9e4fa034.png"
+  },
+  {
     "revision": "86b4c231385ec5d7c29d658973215f84",
     "url": "/portfolio/static/media/avatar.86b4c231.jpg"
   },
@@ -60,7 +64,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/headergb.651ff0ee.jpg"
   },
   {
-    "revision": "4feb399265f2eca66ab7e6c27c44ed88",
+    "revision": "adcf919cc76b78beb5b3f72d36022dd5",
     "url": "/portfolio/index.html"
   }
 ];
