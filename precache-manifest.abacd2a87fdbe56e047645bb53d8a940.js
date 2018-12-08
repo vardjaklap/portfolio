@@ -1,19 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "61caf17d46160e439792",
-    "url": "/portfolio/static/css/main.a7564e6e.chunk.css"
+    "revision": "52b77b2bb7f78fd8ba34",
+    "url": "/portfolio/static/css/main.4451328f.chunk.css"
   },
   {
-    "revision": "61caf17d46160e439792",
-    "url": "/portfolio/static/js/main.61caf17d.chunk.js"
+    "revision": "52b77b2bb7f78fd8ba34",
+    "url": "/portfolio/static/js/main.52b77b2b.chunk.js"
   },
   {
-    "revision": "4443b6646adf8c51903a",
-    "url": "/portfolio/static/js/1.4443b664.chunk.js"
+    "revision": "69505a022418df08804a",
+    "url": "/portfolio/static/js/1.69505a02.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
     "url": "/portfolio/static/js/runtime~main.ee2a1003.js"
+  },
+  {
+    "revision": "c8742018af09e458987edb5293d2415d",
+    "url": "/portfolio/static/media/chrBall.c8742018.png"
+  },
+  {
+    "revision": "59598323828525c9c332ff43e44e6a7c",
+    "url": "/portfolio/static/media/avatar.59598323.png"
+  },
+  {
+    "revision": "3123aa53bc279cf1c0980f629c5634fb",
+    "url": "/portfolio/static/media/avatarNY.3123aa53.png"
   },
   {
     "revision": "4d375a6b8162227b94bd3d756f7ab4e6",
@@ -56,15 +68,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fitonialogo.9e4fa034.png"
   },
   {
-    "revision": "86b4c231385ec5d7c29d658973215f84",
-    "url": "/portfolio/static/media/avatar.86b4c231.jpg"
-  },
-  {
     "revision": "651ff0eeb9b74589eca9b3b0c7ef51ef",
     "url": "/portfolio/static/media/headergb.651ff0ee.jpg"
   },
   {
-    "revision": "c1e83836ec66745b6197f95cd486351b",
+    "revision": "6423116f22b92c92347e1856e2156683",
     "url": "/portfolio/index.html"
   }
 ];
