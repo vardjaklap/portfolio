@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "52b77b2bb7f78fd8ba34",
-    "url": "/portfolio/static/css/main.4451328f.chunk.css"
+    "revision": "f1a4384cf9d4a2975641",
+    "url": "/portfolio/static/css/main.c2de82cf.chunk.css"
   },
   {
-    "revision": "52b77b2bb7f78fd8ba34",
-    "url": "/portfolio/static/js/main.52b77b2b.chunk.js"
+    "revision": "f1a4384cf9d4a2975641",
+    "url": "/portfolio/static/js/main.f1a4384c.chunk.js"
   },
   {
-    "revision": "69505a022418df08804a",
-    "url": "/portfolio/static/js/1.69505a02.chunk.js"
+    "revision": "e0decb48388306015055",
+    "url": "/portfolio/static/js/1.e0decb48.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -18,6 +18,10 @@ self.__precacheManifest = [
   {
     "revision": "c8742018af09e458987edb5293d2415d",
     "url": "/portfolio/static/media/chrBall.c8742018.png"
+  },
+  {
+    "revision": "d3feba2d618aa8981af040395ee13b01",
+    "url": "/portfolio/static/media/christmas.d3feba2d.png"
   },
   {
     "revision": "59598323828525c9c332ff43e44e6a7c",
@@ -64,6 +68,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/photo9.be23954a.png"
   },
   {
+    "revision": "199bdd024c3ebb2a8d9a82d429fe1343",
+    "url": "/portfolio/static/media/christmasFooter.199bdd02.png"
+  },
+  {
     "revision": "9e4fa034f4d2e01b3344dc701083d9db",
     "url": "/portfolio/static/media/fitonialogo.9e4fa034.png"
   },
@@ -72,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/headergb.651ff0ee.jpg"
   },
   {
-    "revision": "6423116f22b92c92347e1856e2156683",
+    "revision": "86833d457bd7db37c2b0b8830d0d23b0",
     "url": "/portfolio/index.html"
   }
 ];
